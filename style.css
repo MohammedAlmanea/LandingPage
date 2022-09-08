@@ -61,6 +61,10 @@ body {
     margin-bottom: 8px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+}
+
 .header a {
     font-size: 18px;
     color: #e5e7eb;
