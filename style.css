@@ -57,7 +57,7 @@ body {
 .images img {
     width: 200px;
     height: 150px;
-    border: 2px purple solid;
+    border: 2px #3882f6 solid;
     border-radius: 25px;
     margin-bottom: 8px;
 }
@@ -90,7 +90,7 @@ body {
     text-decoration: none;
 }
 
-button {
+ button {
     width: fit-content;
     padding: 4px 16px;
     border-radius: 10px;
@@ -123,4 +123,32 @@ button {
     font-size: 18px;
     padding: 8px;
     color: #e5e7eb;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.background {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 25px;
+    flex-basis: 1000px;
+    padding: 45px;
+    margin: 85px;
+    justify-content: space-around;
+    
+}
+.background .t1 {
+    font-size: 35px;
+    flex-basis: 400px;
+}
+.background .t2 {
+    font-size: 20px;
+}
+.signup button {
+    color: white;
+    border-color: white; 
 }
