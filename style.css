@@ -152,3 +152,14 @@ body {
     color: white;
     border-color: white; 
 }
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    content: "\2764";
+}
+footer span {
+    color: #ff0000;
+}
