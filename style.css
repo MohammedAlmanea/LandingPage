@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro {
+    background-color: #1f2937;
+    display: flex;    
+    justify-content: center;
+}
+.sometext {
+ display: flex;
+    flex-direction: column;
+}
+.information h1 {
+    text-align: center;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+}
+.images img {
+    width: 200px;
+    height: 150px;
+    border: 2px purple solid;
+    border-radius: 25px;
+    margin-bottom: 8px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+button {
+    width: fit-content;
+    padding: 4px 16px;
+    border-radius: 10px;
+    background-color: #3882f6 ;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.intro .sometext .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.intro .sometext .text2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
